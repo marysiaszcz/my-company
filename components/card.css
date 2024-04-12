@@ -26,3 +26,28 @@ flex-grow: 1;
 padding-left: 20px;
 font-size: 17px;
 }
+
+.card_wide {
+width:840px;
+padding: 15px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.3);
+border-radius: 6px;
+margin: 15px;
+flex-basis: 250px;
+flex-grow: 1;
+background-color: #ffe6e6;
+}
+
+.card_wide img {
+width: 240px;
+border-radius: 6;
+}
+
+.card_wide h3 {
+flex-grow: 1;
+padding-left: 20px;
+font-size: 17px;
+}
